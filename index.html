@@ -2,21 +2,15 @@
 <html>
 <head>
     <title>Code Creative</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,800|Oswald" rel="stylesheet">
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="vendors/jquery.easings.min.js"></script>
 <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
 <script type="text/javascript" src="jquery.fullPage.js"></script>
-<style type="text/css">
 
-.section {
-    font-size: 6em;
-    text-align: center;
-    color: white;
-    font-family: 'Helvetica';
-}
-
-</style>
 
 <script type="text/javascript">
 
@@ -26,10 +20,10 @@
             //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['firstPage', 'secondPage'],
+        anchors:['weAre', 'weDo' , 'members' , 'projects' , 'contact'],
         navigation: false,
         navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide'],
+        navigationTooltips: ['firstSlide', 'secondSlide' , 'thirdSlide' , 'forthSlide' , 'fifthSlide'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
@@ -70,7 +64,7 @@
         //Design
         controlArrows: true,
         verticalCentered: true,
-        sectionsColor : ['red', 'blue','green','purple'],
+        sectionsColor : ['red', 'blue','green','purple','hotpink'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
@@ -103,11 +97,72 @@
 <body>
 
 <div id="fullpage">
-    <div class="section">Section 1</div>
-    <div class="section">Section 2</div>
-    <div class="section">Section 3</div>
-    <div class="section">Section 4</div>
+   
+    <div class="section">
+    <h1>CODE CREATIVE</h1>
+    <p>We’re nerds….except Eli. We eat sleep and drink code. Ewww. Were CODE blooded #thuglife
+    Relatively cheery group. Slightly moody. Self sufficient with a large splash of edgy.
+
+    We're hard working and creative, each member of our small group of web designers does their best to improve themselves and help one another.</p>
+    </div>
+
+
+    <div class="section">
+    <h2>What We Do</h2>
+    <p>We are a young group of web designers, eager to learn as much as we can about html, css, javascript, bootstrap, wordpress, and all the little things that make a website tick. Primarily, our goal of this club is to get experience working together as a group by creating, updating, and launching websites for our fellow groups within the school as well as small non-profit organizations in the area. Through this club, we hope to gain valuable experiences with the programs and tools used for creating websites, and continue to grow the world of the internet through our creativity.</p>
+    </div>
+
+
+    <div class="section">
+    <h2>Our Members</h2>
+
+    <h3>Alyssa Parlier</h3>
+    <h6>Head of Advertisement</h6>
+    <p>I obtained my AA in graphic design and did a year of freelance design before pursuing my BA in web design. I’m crazy about the details of a site, and spend a good amount of my time analyzing case scenarios and thinking of all options that should be available. Many of my past projects are posted on my facebook, but if you want to see my most up to date portfolio, please check out my website. *Website pending*</p>
+
+    <h3>Sarah Boyer</h3>
+    <h6>Founder</h6>
+    <p>Sarah Boyer is currently obtaining her BFA in Web Design & Interactive Media at The Illinois Institute of Art Schaumburg. She is the student ambassador for the school's web program as well as the founder of the school's web club Code Creative. She enjoys taking on leadership roles and working with creative artistic thinkers. She enjoys being presented with problems and finding solutions. In her spare time, she likes to watch nerdy documentaries about space and "Theories of everything". She tends to think she can play guitar and sing, not in front of anyone of course. Sarah is in her happy place when she is drawing, painting, or creating something 
+    from nothing. If you want to get onto Sarah's good side, make her some coffee. She loves coffee... & cats.</p>
+
+    </div>
+
+
+    <div class="section">
+    <h2>Our Projects</h2>
+
+    <section class="col">
+        <h6 class="center">Completed</h6>
+        <ul id="projects">
+        <li>Visual Voltage, Spark Design Conference 2017 WP Content management</li>
+        <a href="https://vvspark.com/">Spark Design Conference 2017</a>
+        </ul>
+    </section>
+
+    <section class="col">
+        <h6 class="center">Present</h6>
+        <ul id="projects">
+        <li>Visual Voltage Club WP Content management</li>
+        <li>Our Site html/css/jQuery/JavaScript</li>
+        </ul>
+    </section>
+
+    <section class="col">
+        <h6 class="center">Future</h6>
+        <ul id="projects">
+        <li>A.R.T. Fashion Show WordPress Content Management</li>
+        </ul>
+     </section>      
+    </div>
+
+ 
+<div class="section">
+        <h2>Contact Us</h2>
 </div>
+
+  </div>
+
+
 
 </body>
 </html>

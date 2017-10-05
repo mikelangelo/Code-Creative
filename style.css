@@ -1,6 +1,30 @@
 .section {
-    font-size: 6em;
+    font-size: 1em;
     text-align: center;
     color: white;
     font-family: 'Helvetica';
+}
+
+body{
+	font-size:18px;
+}
+
+
+.section{
+}
+
+
+p{
+	max-width: 500px;
+    margin-left: auto;
+	margin-right: auto;
+	text-align: left; 
+
+	padding-left:20px;
+    border-left:4px solid white;
+}
+
+#projects{
+	list-style-type: none;
+
 }
