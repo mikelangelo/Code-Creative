@@ -4,15 +4,16 @@
     <title>Code Creative</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,800|Oswald" rel="stylesheet">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="vendors/jquery.easings.min.js"></script>
-<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
-<script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
 
 
-<script type="text/javascript">
+    <script type="text/javascript">
 
     
     $(document).ready(function() {
@@ -20,10 +21,10 @@
             //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['weAre', 'weDo' , 'members' , 'projects' , 'contact'],
-        navigation: false,
+        anchors:['firstSlide', 'secondSlide' , 'thirdSlide' , 'forthSlide' , 'lastSlide'],
+        navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide' , 'thirdSlide' , 'forthSlide' , 'fifthSlide'],
+        navigationTooltips: ['firstSlide', 'secondSlide' , 'thirdSlide' , 'forthSlide' , 'lastSlide'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
@@ -64,7 +65,7 @@
         //Design
         controlArrows: true,
         verticalCentered: true,
-        sectionsColor : ['red', 'blue','green','purple','hotpink'],
+        sectionsColor : ['#e46764', '#006bb6','#b163a3','#f47d44','#aab1b0'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
@@ -94,21 +95,29 @@
 </script>
 
 </head>
-<body>
+<body onload="alert (' Hello, I'm youre pet rock. ');">
 
 <div id="fullpage">
    
-    <div class="section">
+
+    <div class="section first">
     <h1>CODE CREATIVE</h1>
+    <br>
+    <div class="containIntro">
     <p>We’re nerds….except Eli. We eat sleep and drink code. Ewww. Were CODE blooded #thuglife
     Relatively cheery group. Slightly moody. Self sufficient with a large splash of edgy.
 
     We're hard working and creative, each member of our small group of web designers does their best to improve themselves and help one another.</p>
     </div>
+    </div>
 
+<script>
+    alert("You're mother sucks cocks in Hell!");
+   </script> 
 
     <div class="section">
     <h2>What We Do</h2>
+  
     <p>We are a young group of web designers, eager to learn as much as we can about html, css, javascript, bootstrap, wordpress, and all the little things that make a website tick. Primarily, our goal of this club is to get experience working together as a group by creating, updating, and launching websites for our fellow groups within the school as well as small non-profit organizations in the area. Through this club, we hope to gain valuable experiences with the programs and tools used for creating websites, and continue to grow the world of the internet through our creativity.</p>
     </div>
 
@@ -156,9 +165,15 @@
     </div>
 
  
-<div class="section">
+<div class="section last">
         <h2>Contact Us</h2>
+    <!--       <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+    <p id="demo"></p> -->
 </div>
+
+
+
+
 
   </div>
 

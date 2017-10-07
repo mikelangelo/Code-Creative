@@ -161,20 +161,21 @@ html.fp-enabled,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span{
-    height: 12px;
-    width: 12px;
-    margin: -6px 0 0 -6px;
-    border-radius: 100%;
+    height: 10px;
+    width: 40px;
+    margin: -2px 0 0 -15px;
+    border-radius:;
+    background: white;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    border-radius: 50%;
+    border-radius:;
     position: absolute;
     z-index: 1;
-    height: 4px;
-    width: 4px;
+    height: 10px;
+    width: 10px;
     border: 0;
-    background: #333;
+    background: white;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -188,6 +189,7 @@ html.fp-enabled,
     width: 10px;
     height: 10px;
     margin: -5px 0px 0px -5px;
+    background: black;
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
